@@ -1,0 +1,33 @@
+function bean() {
+let bean = ['Cream soda', 'Root beer', 'Blueberry', 'Raspberry', 'Bubble gum', 'Buttered Popcorn', 'Cantaloupe', 'Cappuccino', 'Caramel Corn', 'Chili Mango', 'Chocolate Pudding', 'Vanilla Pudding', 'Cinnamon', 'Coconut', 'Cotton Candy', 'Crushed Pineapple', 'French Vanilla', 'Green Apple', 'Pear', 'Kiwi', 'Lemon Drop', 'Lemon Lime', 'Black Licorice',
+  'Mango', 'Margarita', 'Orange Sherbet', 'Peach', 'Piña Colada', 'Plum', 'Pomegranate', 'Red Apple', 'Cinnamon', 'Cherry', 'Black Cherry', 'Strawberry', 'Strawberry Cheesecake', 'Strawberry Daquiri', 'Strawberry Jam', 'Lemon', 'Lime', 'Orange', 'Grapefruit', 'Tangerine', 'Toasted Marshmallow', 'Banana', 'Watermelon', 'Wild Blackberry', 'Dishwater', 'Water',
+  'Old Fish', 'Milk', 'Milk Chocolate', 'Dark Chocolate', 'White Chocolate', 'Glazed Donut', 'Creampuff', 'Cream', 'Tiramisu', 'Coffee', 'Green Tea', 'Black Tea', 'Earl Grey Tea', 'Cranberry', 'Turkey', 'Pumpkin', 'Pumpkin Pie', 'Butterbeer', 'Toffee', 'Red Licorice', 'Candyfloss', 'Soap', 'Sausage', 'Rotten Egg', 'Scrambled Egg', 'Bacon', 'Lawn Clippings',
+  'Spaghetti', 'Tomato', 'Durian', 'Jackfruit', 'Sea Salt', 'Ash', 'Black Pepper', 'Mango Curry', 'Chicken', 'Roasted Duck', 'Blueberry Pie', 'Apple Pie', 'Swordfish Steak', 'Roasted Beef', 'Slowcooked Pork', 'Rye Bread', 'Cucumber', 'Vinegar', 'Earwax', 'Soysauce', 'Jalapeño', 'Peanut', 'Peanut Butter', 'Hazelnut', 'Cashew', 'Peanut Brittle', 'Caramel', 'Tiger’s Blood',
+  'Seawater', 'Hardtack', 'Jerky', 'Teriyaki', 'Ice', 'Spearmint', 'Peppermint', 'Dandelion Tea', 'Paper', 'Aluminum Foil', 'Chalk', 'Hotdog', 'Ketchup', 'Mustard', 'Grape', 'Wine', 'Beer', 'Air', 'Sharp Cheddar', 'Rainwater', 'Sage', 'Rosemary', 'Rosewater', 'Turkish Delight', 'Strawberry Milk', 'Meringue', 'Cantaloupe', 'Red Velvet', 'Mint Chocolate', 'Neapolitan',
+  'Tapioca', 'Peanut Butter and Jelly', 'S’more', 'Chocolate Chip Cookie', 'Cheesecake', 'Tear', 'Cherry Wood Smoke', 'Rust', 'Lavender', 'Cilantro', 'Angel’s Food Cake', 'Devil’s Food Cake', 'Divinity', 'Algae', 'Nougat', 'Malt', 'Honey', 'Clover Honey', 'Mead', 'Salmon', 'Corn', 'Shiitake Mushroom', 'Portobello Mushroom', 'Date', 'Plum', 'Prune', 'Raisin', 'Carrot',
+  'Broccoli', 'Celery', 'Cauliflower', 'Pea', 'Pecan', 'Pistachio', 'Sea Salt Caramel', 'Pretzel', 'Lobster', 'Crab', 'Honeydew', 'Ramen Noodle', 'Troll Butter', 'Unicorn Hair',
+  'Macaroni and Cheese', 'Pollen', 'Unicorn Blood', 'Worcestershire Sauce', 'Dill Pickle', 'Poison Mushroom', 'Fear', 'Foie Gras', 'Pear and Blue Cheese', 'Ghost Pepper', 'Fig', 'The Smell of Gasoline', 'Taro', 'Alligator flesh', 'Alligator tears', 'Toes of Frog', 'Frog Breath', 'Leather', 'Bone Marrow', 'Bean', 'Phone', 'Eggplant', 'Miku’s Voice', 'Jazz', 'Liquor',
+  'Mint Julep', 'Hickory BBQ', 'Gravy', 'Seaweed', 'Empanada', 'Capitalism', 'Ghost', 'Ectoplasm', 'Recession', 'A crisp autumn day', 'That time my sister was carrying my birthday cake for my 13th birthday and she dropped it on the ground',
+  'Cabbage', 'Generally Docile Cabbage', 'Stale Bread', 'Ginger Ale', 'Gillyweed', 'Yoghurt Pretzel', 'Cheese Pizza', 'Grasshopper', 'Starbucks', 'Sangria', 'Mangosteen', 'Rambutan', 'Guava', 'Jellyfish', 'Vulture', 'Rabbit Stew', 'The Notebook', 'Suspiciously Oaky', 'Good', 'Flesh', 'Sour Cream and Onion', 'All-dressed', 'Smoky Barbecue', 'Chicken Broth', 'Moustache Trimmings',
+  'Treacle', 'Yorkshire Pudding', 'Pumpkin', 'Pavlova', 'Clam Chowder', 'Black Pudding', 'Haggis','A Nice Chianti', 'Fava Bean', 'Indentured Labour', 'Mandrake', 'Whomping Willow', 'Devil’s Snare', 'Moonseed', 'Moondew', 'Nightshade', 'Bloodroot', 'Bouncing Bulb', 'Dog Drool', 'Minecraft', 'Meat Pie', 'Mashed Potato', 'Blood Oath', 'Broken Dreams and Promises', 'Cool Evening',
+  'Blackberry', 'Spoiled Milk', 'Mulberry', 'Boysenberry', 'Oats and Honey', 'Plasticy', 'Praying Mantis', 'Elderberry', 'Catnip', 'Dogfood', 'Pansy', 'Powdered Sugar', 'Eucalyptus', 'Blood', 'Ambrosia', 'Grapeskin', 'Cheap Wine', 'Moonshine', 'Roasted Boar', 'Smoked Turkey Leg', 'Pumpkin Seed', 'Pumpkin Spice', 'Turmeric', 'Cheddar Cheese', 'Cornbread', 'Goat’s Milk', 'Onion', 'Garlic',
+  'Ink', 'Typo', 'Blood Barrel', 'Deodorant', 'Longan', 'Bear', 'Persimmon', 'Cempedak', 'Boba Tea', 'Pasta Carbonara', 'Cherry Blossom', 'Black Well Water', 'Rabbit\'s Stew', 'Slime', 'Prison Violence', 'Do Not Piss on the Guard House', 'Sindariel\'s Tears', 'Atheism', 'Forgetting to Add Your Blessing Stat to your Attack', 'Sparky Sufferig', '5 Dream Cards In a Row', 
+  'Not Miku but you wish it was', 'Dragon Horn', 'Noro Noro Fruit', 'Communism', 'Anarchy Just Creates A Power Vacuum', 'Edgar\'s Boot', 'Worrying Taste Of Blood In Your Mouth', 'A Burgeoning Gambling Addiction', 'Mike and Ike', 'Mike\'s Choice', 'Printing Press', 'Isekai', 'Paw-paw', 'Starfruit', 'Pomelo', 'Wax Apple', 'Snake Fruit', 'Yellow Curry', 'Green Curry', 'Laksa', 'Tetanus Prevention',
+  'Sleep', 'Coffee Pulp', '0% Milk', 'Curry Boba Tea', 'Mint Piss Surprise', 'Olive', 'Tom Kha Gai', 'Khao Soi', 'Dinuguan', 'Balut', 'Adobo', 'Kwek kwek', 'Bibingka', 'Sapin sapin', 'Biko', 'Puto', 'Pancit malabon', 'Ube', 'Halo halo', 'Ampalaya', 'Petai', 'Tomyum', 'Somtum', 'Nasi Lemak', 'Roti Canai', 'Roti', 'Ais kacang', 'Nasi goreng', 'Bulgogi', 'Sushi', 'Nori', 'Ayam Taliwang', 'Soto', 
+  'Pecel', 'Bibimbap', 'Kimchi', 'Mole Sauce', 'Latke', 'Nem chua', 'Dabu-dabu', 'Se\'i', 'Jollibee Chicken', 'Salsa', 'Menudo', 'Chapulines', 'Jamu', 'Beras Kencur', 'Sprite', 'Dr. Pepper', 'Chorizo', 'Pho', 'Hainanese Chicken Rice', 'Pancalele', 'Shrimp', 'Mi Quang', 'Cha ca La Vong', 'Tater Tots', 'Broccoli', 'Cucumber', 'Lavender', 'Barbacoa', 'Conchas', 'Beignet', 'Praline', 'Pecan', 
+  'Chap Chae', 'Horchata', 'Carnitas Huevos Rancheros', 'Es Campur', 'Baklava', 'Khorkhog', 'Khuushuur', 'Turnip Cake', 'Shumai', 'Ikea Meatball', 'Samosa', 'Mango Chicken Curry', 'Tandoori Chicken', 'Garam Masala', 'Butter Chicken', 'Peppercorn', 'Vindaloo', 'Ghee', 'Butter', 'Fried Catfish', 'Milk Pudding', 'Miso', 'Soba', 'Takoyaki', 'Squid', 'Natto', 'Ginseng', 'Wood Ear Mushroom', 
+  'Chanterelle Mushroom', 'Enoki Mushroom', 'Truffle', 'Caviar', 'Giant Puffball Mushroom', 'Oyster', 'Spam Musubi', 'Poke', 'Laulau', 'Sesame', ''
+  ];
+
+
+  return bean[Math.floor(Math.random()*bean.length)];
+}
+
+module.exports = {
+	name: 'bean',
+	description: 'generates a random bean flavor',
+  cooldown: 5,
+	execute(message, args) {
+message.channel.send(':candy: Your jellybean is **' + bean() + '** flavored!');
+	},
+};
